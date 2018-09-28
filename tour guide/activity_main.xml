@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tourguide.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tourism"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/udaipur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Udaipur"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/delhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delhi"
+        android:textAllCaps="true"
+        android:textSize="44sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/udaipur"/>
+
+    <TextView
+        android:id="@+id/mumbai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mumbai"
+        android:textAllCaps="true"
+        android:textSize="44sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/delhi"/>
+
+    <TextView
+        android:id="@+id/goa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goa"
+        android:textAllCaps="true"
+        android:textSize="44sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_below="@id/mumbai"/>
+
+</RelativeLayout>
